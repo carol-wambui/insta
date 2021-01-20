@@ -3,6 +3,8 @@ InstaClone
 
 Instaclone is a clone of Instagram, it allows users to create and update profiles, users can post new posts, comment and like posts.
 
+Author carol wambui
+
 Prerequisites
 
 Have Git installed.
