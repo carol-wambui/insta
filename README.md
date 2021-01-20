@@ -1,7 +1,8 @@
 README.md
-InstaClone
+Insta-cashy
 
-Instaclone is a clone of Instagram, it allows users to create and update profiles, users can post new posts, comment and like posts.
+This is a clone of Instagram where people share their images for other users to view. Users can sign up, login, view and post photos, search and follow other users.
+
 
 Author carol wambui
 
@@ -18,9 +19,7 @@ Setup Installation
 
 To run the application:-
 
-Clone the repository to a folder in your machine using 
-
-Cd to that folder.
+Clone the repository to a folder in your machine.
 
 Create a virtual environment using python3 -m venv virtual
 
@@ -37,8 +36,6 @@ python3 manage.py migrate
 Open the project on your Text Editor/IDE
 
 Run python3 manage.py runserver on your terminal
-
-Author carol wambui
 
 carolwambuidaystar@gmail.com
 
