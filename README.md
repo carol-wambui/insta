@@ -5,10 +5,7 @@ Author carol wambui
 
 This is a clone of Instagram where people share their images for other users to view. Users can sign up, login, view and post photos, search and follow other users.
 
-
-
-
-Prerequisites
+Requirements
 
 Have Git installed.
 Have Python and Pip Installed
