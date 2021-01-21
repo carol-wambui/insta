@@ -26,13 +26,13 @@
     <header class="site-header">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
           <div class="container">
-            <a class="navbar-brand mr-4" href="{% url 'gram-landing' %}">Instagram</a>
+            <a class="navbar-brand mr-4" href="{% url 'gram-landing' %}" style="color: blue;">Instagram</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarToggle">
               <div class="navbar-nav mr-auto">
-                <a class="nav-item nav-link" href="{% url 'gram-landing' %}">Home</a>
+                <a class="nav-item nav-link" href="{% url 'gram-landing' %}"style="color: blue;">Home</a>
               </div>
               <!-- Navbar Right Side -->
               <div class="navbar-nav">
@@ -43,13 +43,13 @@
                           aria-label="Search">
                   </div>
               </form>
-                <a class="nav-item nav-link" href="{% url 'user-posts' %}">Follow</a>
-                <a class="nav-item nav-link" href="{% url 'post-create' %}">New Post</a>
-                <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
-                <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
+                <a class="nav-item nav-link" href="{% url 'user-posts' %}"style="color: blue;">Follow</a>
+                <a class="nav-item nav-link" href="{% url 'post-create' %}"style="color: blue;">New Post</a>
+                <a class="nav-item nav-link" href="{% url 'profile' %}"style="color: blue;">Profile</a>
+                <a class="nav-item nav-link" href="{% url 'logout' %}"style="color: blue;">Logout</a>
                 {% else %}
-                <a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
-                <a class="nav-item nav-link" href="{% url 'registration' %}">Sign Up</a>
+                <a class="nav-item nav-link" href="{% url 'login' %}"style="color: blue;">Login</a>
+                <a class="nav-item nav-link" href="{% url 'registration' %}"style="color: blue;">Sign Up</a>
                 {% endif %}
               </div>
             </div>
